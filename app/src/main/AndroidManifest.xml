@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FurnitureAR"
+        tools:targetApi="31">
+        <activity
+            android:name=".Decothree_page"
+            android:exported="false" />
+        <activity
+            android:name=".Decotwo_page"
+            android:exported="false" />
+        <activity
+            android:name=".Decoone_page"
+            android:exported="false" />
+        <activity
+            android:name=".bedthree_page"
+            android:exported="false" />
+        <activity
+            android:name=".bedtwo_page"
+            android:exported="false" />
+        <activity
+            android:name=".bedone_page"
+            android:exported="false" />
+        <activity
+            android:name=".sofathree_page"
+            android:exported="false" />
+        <activity
+            android:name=".sofatwo_page"
+            android:exported="false" />
+        <activity
+            android:name=".sofaone_page"
+            android:exported="false" />
+        <activity
+            android:name=".chairthree_page"
+            android:exported="false" />
+        <activity
+            android:name=".chairtwo_page"
+            android:exported="false" />
+        <activity
+            android:name=".chairone_page"
+            android:exported="false" />
+        <activity
+            android:name=".decorepage"
+            android:exported="false" />
+        <activity
+            android:name=".bedpage"
+            android:exported="false" />
+        <activity
+            android:name=".sofapage"
+            android:exported="false" />
+        <activity
+            android:name=".chairpage"
+            android:exported="false" />
+        <activity
+            android:name=".home_page"
+            android:exported="false" />
+        <activity
+            android:name=".login_page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

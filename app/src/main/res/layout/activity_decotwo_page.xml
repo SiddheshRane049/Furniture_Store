@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Decotwo_page_page">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="848dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="300dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="346dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/lampo" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="684dp"
+                android:backgroundTint="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="@font/contrail_one"
+                    android:text="RadianceRealm Lamp"
+                    android:textColor="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="22dp"
+                    android:fontFamily="@font/contrail_one"
+                    android:text="Euphoria Beige Cotton Shade Night Lamp With Mango wood Base,"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="120dp"
+                    android:fontFamily="@font/contrail_one"
+                    android:text="₹ 999"
+                    android:textColor="#000000"
+                    android:textSize="29sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="160dp"
+                    android:backgroundTint="#8BC34A"
+                    android:fontFamily="@font/contrail_one"
+                    android:text="Add to Cart"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="220dp"
+                    android:layout_marginRight="22dp"
+                    android:fontFamily="@font/contrail_one"
+                    android:text="Specifications: Designed with the traditional classic style, this captivating unique table lamp is a great lighting fixture to add a beautiful and natural element to any room. A sturdy wood base is topped with a shade, and it casts a warm and soothing light, perfect for placing on your nightstand or side table beside sofa and bed. The round hardback shade is a crisp beige linen fabric with light slubbing and a crude burlap wrap around the center. It is made of durable wood and comes with a solid base that ensures stability." />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
